@@ -1,0 +1,10 @@
+[package]
+name = "lua_http_client"
+version = "0.1.1"
+authors = ["002 <halogen002@gmail.com>"]
+
+[dependencies]
+hyper = "*"
+
+[lib]
+crate-type = ["dylib"]
